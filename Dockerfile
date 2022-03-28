@@ -27,3 +27,4 @@ COPY . .
 
 RUN chmod +x ./.bin/setup.sh ./.bin/start.sh
 RUN ./.bin/setup.sh
+CMD sh ./.bin/start.sh
